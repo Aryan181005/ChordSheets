@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
 }
 
-.main-container{
+.image-links{
     position: absolute;
     top:50%;
     margin:auto 30px;
