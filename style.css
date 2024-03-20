@@ -2,10 +2,39 @@ body{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
 
 .image-links{
+    margin-top:5vw;
+    text-align: center;
+}
+
+.pagination{
+    flex-direction: column;
+}
+
+.page-item{
+    margin:10px;
+    transition: all 200ms ease-in-out;
+}
+
+.page-item:hover{
+    transform: scale(1.1);
+}
+
+.page-link{
+    border-radius: 7px;
+}
+
+.bg-video{
+    max-width:1920px;
+    max-height: 1080px;
+}
+
+.bg-video{
     position: absolute;
-    top:50%;
-    margin:auto 30px;
+    overflow: hidden;
+    filter: brightness(75%);
 }
